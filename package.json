@@ -1,0 +1,29 @@
+{
+  "name": "threejs-playground",
+  "version": "1.0.0",
+  "description": "Experimenting three.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LironHazan/threejs-playground.git"
+  },
+  "author": "Liron Hazan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LironHazan/threejs-playground/issues"
+  },
+  "homepage": "https://github.com/LironHazan/threejs-playground#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "js": "^0.1.0",
+    "three": "^0.117.1",
+    "three-orbit-controls": "^82.1.0",
+    "three-orbitcontrols-ts": "^0.1.2"
+  }
+}

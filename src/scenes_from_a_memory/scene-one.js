@@ -1,5 +1,7 @@
 const ROWS = 20;
 const BLOKS_PER_ROW = 3;
+import * as THREE from 'three';
+import { OrbitControls } from 'three-orbitcontrols-ts'
 
 export class SceneOne {
     #scene;
@@ -33,7 +35,7 @@ export class SceneOne {
         this.#renderer.setSize( window.innerWidth, window.innerHeight );
         document.body.appendChild( this.#renderer.domElement );
 
-        const controls = new THREE.OrbitControls( this.#camera, this.#renderer.domElement );
+        const controls = new OrbitControls( this.#camera, this.#renderer.domElement );
         controls.target.set(0,4,0);
         controls.update();
 

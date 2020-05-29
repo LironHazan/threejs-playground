@@ -1,1 +1,5 @@
 ignore
+.cache
+dist
+node_modules
+.idea
