@@ -1,5 +1,7 @@
 Experimenting three.js
 
+[on netlify](https://practical-galileo-f7a57d.netlify.app/)
+
 TBD:
 - add typescript!
 
