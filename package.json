@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "js": "^0.1.0",
-    "three": "^0.117.1",
+    "three": "^0.125.0",
     "three-orbit-controls": "^82.1.0",
     "three-orbitcontrols-ts": "^0.1.2"
   }
